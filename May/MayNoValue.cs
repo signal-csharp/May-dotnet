@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel;
 using System.Diagnostics;
-using System.Diagnostics.Contracts;
 
 namespace Strilanc.Value {
     ///<summary>

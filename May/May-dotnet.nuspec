@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>May-dotnet</id>
-    <version>1.1.0</version>
+    <version>1.1.2</version>
     <title>curve25519 for .NETStandard</title>
     <authors>Craig Gidney</authors>
     <owners>Strilanc</owners>
@@ -13,8 +13,11 @@
     <releaseNotes>dotnet standard, here we come!</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>May netstandard</tags>
+	<dependencies>
+      <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+    </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\May.dll" target="lib\netstandard1.0\May.dll" />
+    <file src="bin\Release\May.dll" target="lib\netstandard1.4\May.dll" />
   </files>
 </package>

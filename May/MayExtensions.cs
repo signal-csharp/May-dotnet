@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics.Contracts;
 
 namespace Strilanc.Value {
     ///<summary>Utility methods for the generic May type.</summary>
