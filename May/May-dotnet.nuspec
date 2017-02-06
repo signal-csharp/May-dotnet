@@ -2,8 +2,8 @@
 <package >
   <metadata>
     <id>May-dotnet</id>
-    <version>1.1.2</version>
-    <title>curve25519 for .NETStandard</title>
+    <version>1.2.0</version>
+    <title>May port for .NETStandard</title>
     <authors>Craig Gidney</authors>
     <owners>Strilanc</owners>
     <licenseUrl>https://github.com/Strilanc/May/blob/master/License.txt</licenseUrl>

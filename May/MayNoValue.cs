@@ -1,15 +1,10 @@
-﻿using System.ComponentModel;
-using System.Diagnostics;
-
-namespace Strilanc.Value {
+﻿namespace Strilanc.Value {
     ///<summary>
     ///A non-generic lack-of-value type, equivalent to generic likes like lack-of-int.
     ///Use Strilanc.Value.May.NoValue to get an instance.
     ///Note: All forms of no value are equal, including May.NoValue, May&lt;T&gt;.NoValue, May&lt;AnyOtherT&gt;.NoValue, default(May&lt;T&gt;) and new May&lt;T&gt;().
     ///Note: Null is NOT equivalent to new May&lt;object&gt;(null) and neither is equivalent to new May&lt;string&gt;(null).
     ///</summary>
-    [EditorBrowsable(EditorBrowsableState.Never)]
-    [DebuggerDisplay("{ToString()}")]
     public struct MayNoValue : IMayHaveValue {
         ///<summary>Determines if this potential value contains a value or not (it doesn't).</summary>
         public bool HasValue { get { return false; } }

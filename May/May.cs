@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 
 namespace Strilanc.Value {
     ///<summary>
@@ -7,7 +6,6 @@ namespace Strilanc.Value {
     ///Note: All forms of no value are equal, including May.NoValue, May&lt;T&gt;.NoValue, May&lt;AnyOtherT&gt;.NoValue, default(May&lt;T&gt;) and new May&lt;T&gt;().
     ///Note: Null is NOT equivalent to new May&lt;object&gt;(null) and neither is equivalent to new May&lt;string&gt;(null).
     ///</summary>
-    [DebuggerDisplay("{ToString()}")]
     public struct May<T> : IMayHaveValue, IEquatable<May<T>> {
         ///<summary>
         ///A potential value containing no value.
