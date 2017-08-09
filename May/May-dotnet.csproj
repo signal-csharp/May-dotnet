@@ -6,12 +6,13 @@
     <IncludeSource>True</IncludeSource>
     <IncludeSymbols>True</IncludeSymbols>
     <Version>1.2.2</Version>
-    <Product>May port for .NETStandard</Product>
+    <Product>May-dotnet</Product>
     <Authors>Craig Gidney</Authors>
     <PackageLicenseUrl>https://github.com/Strilanc/May/blob/master/License.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/signal-csharp/May-dotnet</PackageProjectUrl>
     <RepositoryUrl>https://github.com/signal-csharp/May-dotnet</RepositoryUrl>
     <Copyright>Copyright 2017</Copyright>
+    <Description>May port for .NETStandard</Description>
   </PropertyGroup>
 
 </Project>
