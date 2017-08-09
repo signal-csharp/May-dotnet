@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "May", "May\May.csproj", "{DFC7EA9C-0638-4461-A3EA-DA5F199B3D0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "May-dotnet", "May\May-dotnet.csproj", "{DFC7EA9C-0638-4461-A3EA-DA5F199B3D0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MayTest", "MayTest\MayTest.csproj", "{C4DF7815-A170-4EFC-B265-E8EAC3CFFDD4}"
 	ProjectSection(ProjectDependencies) = postProject

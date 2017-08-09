@@ -58,9 +58,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\May\May.csproj">
+    <ProjectReference Include="..\May\May-dotnet.csproj">
       <Project>{dfc7ea9c-0638-4461-a3ea-da5f199b3d0f}</Project>
-      <Name>May</Name>
+      <Name>May-dotnet</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
