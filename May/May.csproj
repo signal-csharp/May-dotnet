@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IncludeSource>True</IncludeSource>
     <IncludeSymbols>True</IncludeSymbols>
-    <Version>1.2.1</Version>
+    <Version>1.2.2</Version>
     <Product>May port for .NETStandard</Product>
     <Authors>Craig Gidney</Authors>
     <PackageLicenseUrl>https://github.com/Strilanc/May/blob/master/License.txt</PackageLicenseUrl>
